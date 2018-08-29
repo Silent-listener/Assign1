@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+
+
+header li {
+    display: inline ;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav {
+    /*background-color: #333; */
+    overflow: hidden;
+} 
+
+.hero-image {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+#rm , #ser {
+    padding: 12px 20px;
+    background: #e96656;
+    border-style: none;
+    border-radius: 7px;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+#ser {
+    background: #1e9e6b;
+}
+
+
+.service-head {
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.service-box {
+    padding: 20px;
+    flex: 1;
+}
+
+#one {
+    width: 60px;
+    color: #f00606;
+}
+
+#two {
+    width: 60px;
+    color: #1af525;
+}
+
+#three {
+    width: 60px;
+    color: #fff235;
+}
+
+#four {
+    width: 60px;
+    color: #01fde8;
+}
+
+.services img{
+    border: 10px solid grey;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.services img:first-child:hover {
+    border: 10px solid #f00606;
+}
+
+.services #comroom:hover {
+    border: 10px solid #1af525 ;
+}
+
+.services #laundary:hover {
+    border: 10px solid #fff235 ;
+}
+
+.services #mess:hover {
+    border: 10px solid #01fde8 ;
+}
+
+.room-head {
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    background:rgb(140, 118, 32);
+    padding: 20px;
+}
+
+.room-head hr{
+    width: 60px;
+}
+
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.room-box {
+    background: white;
+    border: 1px solid grey;
+    padding: 10px;
+    color: Black;
+}
+
+.room-box img{
+    height: 200px;
+    width: 100%;
+}
+
+.form-head {
+    height: 250px;
+    text-align: center;
+    background-color: rgb(61, 18, 18);
+    color: azure;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+    background: rgb(64, 64, 64);
+    padding: 20px;
+    margin: 0;
+    color: azure;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25%
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+footer{
+    margin: auto;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer li {
+    display: inline;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.foot {
+    text-align: center;
+    flex: 1;
+}
