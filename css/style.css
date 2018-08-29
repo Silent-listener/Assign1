@@ -7,8 +7,7 @@ header {
     background: whitesmoke;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,7 +16,15 @@ header {
     z-index: 1;
 }
 
+.logo{
+    width: 20%;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Baloo Tammudu', cursive;
+}
 
 header li {
     display: inline ;
@@ -31,7 +38,8 @@ header li {
 }
 
 nav {
-    /*background-color: #333; */
+    text-align: right;
+    text-decoration: none;
     overflow: hidden;
 } 
 
@@ -53,6 +61,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
+    font-family: 'Lobster', cursive;
 }
 
 #rm , #ser {
@@ -62,6 +71,7 @@ nav {
     border-radius: 7px;
     margin: 5px;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 #ser {
@@ -179,8 +189,14 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: stretch;
 }
+
+/*.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}*/
 
 .contact {
     text-align: center;
@@ -239,6 +255,7 @@ footer ul {
     footer ul{
     flex-direction: column;
     margin-bottom: 10px;
+    -webkit-padding-start: 0px;
     }
 }
 
@@ -266,5 +283,14 @@ footer li {
     .room-box img{
         height: 100%;
         width: 50%;
+    }
+}
+
+@media (max-width: 575px){
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
     }
 }
