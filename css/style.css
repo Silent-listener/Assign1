@@ -51,8 +51,12 @@ position: relative;
 content: '';
 position: absolute;
 }
-
-.nav-toggle-label span::before {
+/*.service-head h1 {
+    font-size: 20px;
+}*/
+/*.service-head h1 {
+    font-size: 20px;
+}*/::before {
 bottom: 7px;
 }
 
@@ -322,7 +326,7 @@ a {
     }
     .room-box img{
         height: 100%;
-        width: 50%;
+        width: 85%;
     }
 }
 
