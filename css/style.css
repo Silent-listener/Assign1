@@ -128,6 +128,7 @@ transition: opacity 250ms ease-in-out 250ms;
     transform: unset;
     transform-origin: unset;
     transition: unset;
+    background: unset;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -224,10 +225,6 @@ a {
     position: relative;
     color: black;
 }
-
-/*.service-head h1 {
-    font-size: 20px;
-}*/
 
 .services {
     display: flex;
