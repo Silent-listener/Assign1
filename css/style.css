@@ -225,9 +225,9 @@ a {
     color: black;
 }
 
-.service-head h1 {
+/*.service-head h1 {
     font-size: 20px;
-}
+}*/
 
 .services {
     display: flex;
