@@ -120,11 +120,19 @@ header {
     }
     
     nav {
-      all: unset;
-      grid-column: 3 / 4;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
+    position: unset;
+    text-align: unset;
+    top: unset;
+    left: unset;
+    background:  rgba(32, 34, 34, 0.623);
+    width: unset;
+    transform: unset;
+    transform-origin: unset;
+    transition: unset;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     }
     
     nav ul {
