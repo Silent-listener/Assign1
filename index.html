@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Serenity House</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu|Lobster|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="main.js"></script>
 </head>
 <body>
 <header>
-        <div class="logo"> <img src="images/logo.png" alt="LOGO"></div>
+    <h1 class="logo">Logo</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
         <ul>
-           <nav>  <li><a href="#home">Home</a></li>
-            <li><a href="#room">Rooms</a></li>
-            <li><a href="#services">Facilities</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </nav> 
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
         </ul>
-   
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
 </header>
 
 <section class="hero-image">
     <div class="hero-text">
     <h2>Serenity House</h2>
-    <p></p>
-    <button id="rm"><a href="#room">Rooms</a></button>
-    <button id="ser"><a href="#services">Services</a></button>
+    <a href="#room" id="rm">Rooms</a>
+    <a href="#services" id="ser">Services</a>
     </div>
 </section>
 <div class="service-head">
@@ -60,7 +63,7 @@
     </div>
 
     <div class="service-box">
-            <img src="images/kitchen.png" id="mess"alt="Mess" height="150" width="150">
+            <img src="images/kitchen.png" id="mess" alt="Mess" height="150" width="150">
                 <h2>Mess and Kitchen</h2>
                 <hr id="four">
                 <p>North Indian and South Indian meals</p>
@@ -73,29 +76,30 @@
         <h1>Our Rooms</h1><hr>
         <p>Budget Friendly Quality Rooms.<p><br>
 
-<div class="rooms">
-    <div class="room-box">
-        <img src="images/1.jpg" alt="" >
-            <h2>Single Sharing</h2>
-            <p>₹7500</p>
-    </div>
-    <div class="room-box">
-        <img src="images/2.jpg" alt="">
-            <h2>Double Sharing</h2>
-            <p>₹10000</p>
-    </div>
-    <div class="room-box">
-        <img src="images/3.JPG" alt="">
-            <h2>Triple Sharing</h2>
-            <p>₹12500</p>
-    </div> 
+    <div class="rooms">
+        <div class="room-box">
+            <img src="images/1.jpg" alt="" >
+                <h2>Single Sharing</h2>
+                <p>₹7500</p>
+        </div>
+        <div class="room-box">
+            <img src="images/2.jpg" alt="">
+                <h2>Double Sharing</h2>
+                <p>₹10000</p>
+        </div>
+        <div class="room-box">
+            <img src="images/3.JPG" alt="">
+                <h2>Triple Sharing</h2>
+                <p>₹12500</p>
+        </div> 
+    </div>    
 </section>
 
     <section class="form-head">
             <h1>REACH US</h1>
             <p>Tell us a little about you, so that we can serve you better</p>
     
-            <form action="" method="GET">
+            <form action="#" method="GET">
                     <input type="text" id="name" name="name" placeholder="Name">
                     <input type="text" id="number" name="number" placeholder="Mobile No.">
                     <input type="email" id="email" name="email" placeholder="E-Mail">
@@ -104,7 +108,6 @@
             </form>
     </section>
 
-</div>
     <div class="contact">
         <h2>Follow our Social Content</h2>
         <a href="#" class="fa fa-facebook"></a>
@@ -114,22 +117,17 @@
     </div>   
 <footer>
     <ul>
-        <div class="foot">
-        <li><img src="images/loc.png" alt="Address"></li>
+        <li><img src="images/loc.png" alt="Address">
         <p>1 Bha 35, Vigyan Nagar</p>
         <p>Kota, Rajasthan, 324005</p>
-        </div>
-        
-        <div class="foot">
-        <li><img src="images/mail.png" alt="E-Mail"></li>
+        </li>
+        <li><img src="images/mail.png" alt="E-Mail">
         <p>serenity.hostels@gmail.com</p>
-        </div>
-
-        <div class="foot">  
-        <li><img src="images/telephone65-blue.png" alt="Contact"></li>
+        </li>
+        <li><img src="images/telephone65-blue.png" alt="Contact">
         <p>Ayush Bhatia : 8877586997</p>
         <p>Nidhish Bhatia : 7877768909</p>
-        </div>
+        </li>
     </ul>
 </footer>            
 </body>
